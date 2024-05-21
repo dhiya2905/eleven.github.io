@@ -1,0 +1,70 @@
+.head h1{
+    font-family:  "Caprasimo", serif;
+    color:rgb(33, 36, 33);
+    margin-right:50px;
+}
+.head1{
+ font-size: 40px;;
+}
+body{
+    background-color: #79c2ec;
+    font-family: Arial, sans-serif;
+   
+        margin: 0;
+        padding: 0;
+  
+}
+.in{
+    width: 25%;
+}
+@media only screen and (max-width: 600px) {
+    .in{
+      width: 50%;
+    }
+   
+  }
+
+  .navbar {
+    background-color: #28a7e2;
+    color: #181515;
+    position: relative;
+    display: flex; 
+    text-align: center;
+}
+
+.topic{
+    background: linear-gradient(rgb(68, 216, 208), rgb(4, 164, 212)) rgb(255, 255, 255); 
+    border-bottom: none; border-image: initial; 
+    border-left: 1px solid rgb(170, 170, 170); 
+    border-radius: 10px 10px 0px 0px;
+     border-right: 1px solid rgb(170, 170, 170); 
+    border-top: 1px solid rgb(170, 170, 170); 
+    box-sizing: border-box; 
+    color: white; 
+    cursor: pointer; 
+    display: inline-block; 
+    font-size: 22px; 
+    line-height: 2em; 
+    margin-bottom: 0px;
+    margin-left: 10px; 
+    max-width: 100%;
+    padding: 0px 5px; 
+    text-align: center;   
+}
+
+.content{
+    text-align: center;
+    font-size: larger;
+    justify-content: space-between;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.chart{
+    text-align: center;
+    font-size: larger;
+    justify-content: space-between;
+}
